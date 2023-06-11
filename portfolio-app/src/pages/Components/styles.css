@@ -1,0 +1,12 @@
+.project-container::-webkit-scrollbar {
+    width: 100%;
+}
+
+.project-container::-webkit-scrollbar-track {
+    background-color:none;
+}
+
+.project-container::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 88, 88);
+    border-radius: 6px;
+}

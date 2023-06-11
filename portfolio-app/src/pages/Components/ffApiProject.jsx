@@ -3,7 +3,7 @@ import homePageImage from '../../utils/imgs/ffx-api.png'
 
 export const FFXAPIProejct = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
         <h1 className='space-y-0'>
             Final Fantasy API
         </h1>

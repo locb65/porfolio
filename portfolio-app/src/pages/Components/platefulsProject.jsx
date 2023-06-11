@@ -3,7 +3,7 @@ import homePageImage from '../../utils/imgs/Platefuls-home.png'
 
 export const PlatefulsProject = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
         <h1 className='space-y-0'>
             Platefuls
         </h1>
