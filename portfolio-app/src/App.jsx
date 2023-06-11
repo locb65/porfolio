@@ -4,8 +4,8 @@ import { Home } from './pages/home';
 
 function App() {
   return (
-    <div className="App flex-auto mx-auto bg-blue-50 rounded-xl">
-      <p className="text-8xl text-gray-700 fond-bolder mb-5">Welcome</p>
+    <div className="App flex flex-col justify-center items-center bg-blue-50 rounded-xl h-screen w-screen">
+      <p className="text-8xl text-gray-700 fond-bolder mb-5">Welcome to my Portfolio</p>
       <Routes>
         <Route path='/' element={<Home/>}>
 

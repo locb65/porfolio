@@ -6,9 +6,9 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center w-screen">
         <AboutMe/>
-        <Projects/>
+        <Projects className = " flex basis-28 overflow-visible"/>
         <div className="m-1 p-1">
            <p className="text-4xl"> Contact Me</p>
             <ContactMeForm/>
