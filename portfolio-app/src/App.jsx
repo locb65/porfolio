@@ -12,7 +12,7 @@ function App() {
       <NavBar/>
       <div className='flex flex-col h-full'>
         <Routes>
-          <Route path='/portfolio-frontend' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/more-info' element={<MoreInfo/>}/>
         </Routes>
         </div>
