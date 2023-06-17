@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-frontend/static/css/main.b93163bd.css",
+    "main.js": "/portfolio-frontend/static/js/main.adcb1e0f.js",
+    "static/js/787.30237536.chunk.js": "/portfolio-frontend/static/js/787.30237536.chunk.js",
+    "static/media/trivia-game.png": "/portfolio-frontend/static/media/trivia-game.f6e06a38933e4fe4c0a7.png",
+    "static/media/Platefuls-home.png": "/portfolio-frontend/static/media/Platefuls-home.953f01239eb147aa2e8e.png",
+    "static/media/home-page.png": "/portfolio-frontend/static/media/home-page.b9e525c8ee2e85ba98e9.png",
+    "static/media/me.jpg": "/portfolio-frontend/static/media/me.0752733e1737c16a5d87.jpg",
+    "static/media/ffx-api.png": "/portfolio-frontend/static/media/ffx-api.b81c4ff92393d8107ddb.png",
+    "index.html": "/portfolio-frontend/index.html",
+    "main.b93163bd.css.map": "/portfolio-frontend/static/css/main.b93163bd.css.map",
+    "main.adcb1e0f.js.map": "/portfolio-frontend/static/js/main.adcb1e0f.js.map",
+    "787.30237536.chunk.js.map": "/portfolio-frontend/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b93163bd.css",
+    "static/js/main.adcb1e0f.js"
+  ]
+}
