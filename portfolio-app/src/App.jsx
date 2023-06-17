@@ -1,19 +1,23 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home } from './pages/home';
+import { MoreInfo } from './pages/moreInfo';
+import { NavBar } from './pages/Components/navBar';
+import { Footer } from './pages/Components/footer';
 
 function App() {
   return (
-    <div class="h-screen w-screen bg-gradient-to-b from-green-500 to-white" >
-    <div >
-      <p className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl text-gray-700 fond-bold mb-5">Welcome to my Portfolio</p>
-      <Routes>
-        <Route path='/' element={<Home/>}>
-
-        </Route>
-      </Routes>
-
-    </div>
+    <div className='h-screen w-screen bg-gradient-to-b from-green-500 to-white' >
+    <div>
+      <NavBar/>
+      <div className='flex flex-col h-full'>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/more-info' element={<MoreInfo/>}/>
+        </Routes>
+        </div>
+      </div>
+    <Footer/>
     </div>
   );
 }
