@@ -20,14 +20,14 @@ export const NavBar = () => {
                 </Link>
             </li>
             <li>
-                <Link to="/projects" className="text-white hover:text-gray-200">
+                {/* <Link to="/projects" className="text-white hover:text-gray-200"> */}
                 Projects
-                </Link>
+                {/* </Link> */}
             </li>
             <li>
-                <Link to="/faq" className="text-white hover:text-gray-200">
+                {/* <Link to="/faq" className="text-white hover:text-gray-200"> */}
                 FAQ
-                </Link>
+                {/* </Link> */}
             </li>
             </ul>
         </div>
