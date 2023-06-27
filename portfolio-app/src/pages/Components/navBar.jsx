@@ -6,7 +6,7 @@ export const NavBar = () => {
         <nav className="bg-gradient-to-b from-slate-300 to-slate-900 p-6 opacity-80 sticky top-0 z-50" >
         <div className="container mx-auto flex justify-between items-center">
             <Link to="/" className="text-white font-bold text-3xl">
-            Loc Bui Portfolio
+            Loc Bui
             </Link>
             <ul className="flex space-x-4">
             <li>
