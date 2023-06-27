@@ -30,6 +30,7 @@ export const Projects = () => {
             sm:text-4xl 
             md:text-5xl 
             font-bold 
+            text-gray-700
             mb-6'>Projects</h1>
 
             <div className='project-container 
