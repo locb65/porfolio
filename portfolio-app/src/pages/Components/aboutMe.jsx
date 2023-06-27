@@ -8,10 +8,10 @@ export const AboutMe = () => {
         <div className='flex flex-col justify-center items-center h-screen w-full'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-700'>About Me</h1>
             <div className='flex flex-col sm:flex-row items-center content-center max-h-3/6 w-11/12'>
-            <div className='flex flex-col items-center w-full sm:w-2/6 mb-4 sm:mb-0 sm:mr-6 sm:border-r-2 sm:border-b-0 border-b-2 border-slate-500 p-4'>
-                <img src={profilePic} alt="mePic" className='max-h-60 w-auto h-auto mr-6 rounded-3xl sm:max-h-96 md:max-h-80 sm:rounded-xl'/>
+            <div className='flex flex-col items-center w-full sm:w-2/6 mb-4 sm:mb-0'>
+                <img src={profilePic} alt="mePic" className='max-h-60 w-auto h-auto mr-6  sm:mr-8 rounded-3xl sm:max-h-96 md:max-h-80 sm:rounded-xl'/>
             </div>
-            <div className='flex text-base pl-4 ml-4 mr-4 sm:mr-8 md:mr-12 lg:mr-20 sm:text-lg max-h-80 w-full sm:w-4/6 overflow-y-auto '>
+            <div className='flex text-base mr-4 sm:mr-8 md:mr-12 lg:mr-20 sm:text-lg max-h-80 w-full sm:w-4/6 overflow-y-auto '>
                 <p >I am a software developer with a background in medical sciences, which enables me to approach 
                 software development with a unique blend of analytical thinking, problem-solving skills, and a deep understanding of data management and visualization. 
                 I excel at leveraging my scientific knowledge to create efficient and innovative software solutions. With a strong attention to detail and a passion 
