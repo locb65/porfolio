@@ -39,6 +39,7 @@ export const Projects = () => {
             border-2 
             border-slate-400
             p-2 
+            pb-6
             rounded-md 
             overflow-visible 
             shadow-inner 
