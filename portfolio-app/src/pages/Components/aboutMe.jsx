@@ -8,7 +8,7 @@ export const AboutMe = () => {
         <div className='flex flex-col justify-center items-center h-screen w-full'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-700'>About Me</h1>
             <div className='flex flex-col sm:flex-row items-center content-center max-h-3/6 w-11/12'>
-            <div className='flex flex-col items-center w-full sm:w-2/6 mb-4 sm:mb-0'>
+            <div className='flex flex-col items-center sm:w-2/6 mb-4 sm:mb-0'>
                 <img src={profilePic} alt="mePic" className='max-h-60 w-auto h-auto mr-6  sm:mr-8 rounded-3xl sm:max-h-96 md:max-h-80 sm:rounded-xl'/>
             </div>
             <div className='flex text-base mr-4 sm:mr-8 md:mr-12 lg:mr-20 sm:text-lg max-h-80 w-full sm:w-4/6 overflow-y-auto '>
