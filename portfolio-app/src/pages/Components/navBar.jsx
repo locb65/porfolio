@@ -19,16 +19,7 @@ export const NavBar = () => {
                 About
                 </Link>
             </li>
-            <li>
-                {/* <Link to="/projects" className="text-white hover:text-gray-200"> */}
-                Projects
-                {/* </Link> */}
-            </li>
-            <li>
-                {/* <Link to="/faq" className="text-white hover:text-gray-200"> */}
-                FAQ
-                {/* </Link> */}
-            </li>
+
             </ul>
         </div>
         </nav>
