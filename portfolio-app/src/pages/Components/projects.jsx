@@ -4,6 +4,7 @@ import { PlatefulsProject } from './platefulsProject'
 import { FFXAPIProject } from './ffApiProject'
 import { TriviaProject } from './triviaGame'
 import './styles.css'
+import  { ProficiencyBar } from "./proficiencyBar";
 
 export const Projects = () => {
     const projectImageStyle = 'border-2 rounded-xl object-contain h-60 object-fill'
@@ -52,6 +53,22 @@ export const Projects = () => {
                 <PlatefulsProject projectImageStyle={projectImageStyle}/>
                 <FFXAPIProject projectImageStyle={projectImageStyle}/>
                 <TriviaProject projectImageStyle={projectImageStyle}/>
+            </div>
+            <div className='text-3xl 
+            sm:text-4xl 
+            md:text-5xl 
+            font-bold 
+            text-gray-700
+            my-6'>Skills</div>
+            <div className='grid grid-cols-4 gap-12 pt-5'>
+                <ProficiencyBar skill="JavaScript" confidence={90} />
+                <ProficiencyBar skill="HTML" confidence={100} />
+                <ProficiencyBar skill="ReactJS" confidence={90} />
+                <ProficiencyBar skill="CSS" confidence={70} />
+                <ProficiencyBar skill="OOP" confidence={50} />
+                <ProficiencyBar skill="Python" confidence={50} />
+                <ProficiencyBar skill="MongoDB" confidence={70} />
+                <ProficiencyBar skill="PostgreSQL" confidence={60} />
             </div>
         </div>
         </div>

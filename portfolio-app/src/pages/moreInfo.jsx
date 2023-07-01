@@ -9,10 +9,10 @@ export const MoreInfo = () => {
         <div>
             <MoreInfoStatement/>
         </div>
-        <div>
+        <div className='w-full'>
             <MoreInfoEducation/>
         </div>
-        <div>
+        <div className='w-full h-screen bg-gradient-to-b from-white to-blue-300' >
             <MoreInfoHobbies/>
         </div>
         </div>
