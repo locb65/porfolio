@@ -12,7 +12,7 @@ export const MoreInfo = () => {
         <div className='w-full'>
             <MoreInfoEducation/>
         </div>
-        <div className='w-full h-screen bg-gradient-to-b from-white to-blue-300' >
+        <div className='w-full h-screen bg-white' >
             <MoreInfoHobbies/>
         </div>
         </div>

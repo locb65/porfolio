@@ -7,7 +7,7 @@ import { Footer } from './pages/Components/footer';
 
 function App() {
   return (
-    <div className='h-screen w-screen bg-gradient-to-b from-green-500 to-white' >
+    <div className='h-screen w-screen' >
     <div>
       <NavBar/>
       <div className='flex flex-col h-full'>

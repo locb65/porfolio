@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-gradient-to-b from-slate-900 to-slate-300 py-6 opacity-80 w-screen">
+    <div className="flex flex-col justify-center items-center bg-slate-900 to-slate-300 py-6 opacity-80 w-screen text-white">
       <div className="flex-1"></div>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">

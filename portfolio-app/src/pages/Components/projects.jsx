@@ -14,7 +14,6 @@ export const Projects = () => {
         flex-col 
         justify-center 
         items-center
-        bg-gradient-to-b from-white to-blue-300 
         h-screen
         w-screen">
 
